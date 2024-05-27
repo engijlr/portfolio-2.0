@@ -27,8 +27,8 @@ const About = () => {
         </p>
         <p className="lg:w-[450px] text-gray-30">
           My dog Max🐶 is my best buddy, and one of my biggest dreams is to swim
-          with whales🐋. If I'm not exploring new frameworks, you'll probably
-          find me chilling by the sea🌊.
+          with whales🐋. If I&apos;m not exploring new frameworks, you&apos;ll
+          probably find me chilling by the sea🌊.
         </p>
       </div>
 
