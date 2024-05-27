@@ -15,11 +15,11 @@ function Hero() {
         </h1>
         <p className="regular-16 mt-6 text-gray-30 xl:max-w-[520px]">
           Who loves creating beautiful and user-friendly apps using{" "}
-          <span className="text-green-90">react.js</span> with{" "}
-          <span className="text-green-90">redux</span> and{" "}
-          <span className="text-green-90">typescript</span> to proof check the
-          code with types, and <span className="text-green-90">tailwind</span>{" "}
-          to speed the development process.
+          <span className="text-green-90">React</span> with{" "}
+          <span className="text-green-90">Redux/RTK</span> and{" "}
+          <span className="text-green-90">Tailwind</span>, written of course in{" "}
+          <span className="text-green-90">TypeScript</span> for type-checking
+          the code.
         </p>
 
         <div className="flex w-full md:w-1/4 sm:flex-row my-11">

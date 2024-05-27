@@ -22,12 +22,13 @@ const About = () => {
           <span className="text-green-50">Copenhagen, Denmark</span>.
         </p>
         <p className="lg:w-[450px] text-gray-30">
-          Besides my passion for coding and continuous learning, I love taking
-          walks and soaking up the sun☀️.
+          Besides my passion for coding and continuous learning, I love enjoying
+          music🎶, diving into a good book📖, or soaking up the sun.☀️.
         </p>
         <p className="lg:w-[450px] text-gray-30">
-          One of my latest hobbies is kitesurfing, so when I&apos;m not diving
-          into new frameworks, you&apos;ll find me there 🏄🏻‍♀️.
+          My dog Max🐶 is my best buddy, and one of my biggest dreams is to swim
+          with whales🐋. If I'm not exploring new frameworks, you'll probably
+          find me chilling by the sea🌊.
         </p>
       </div>
 
