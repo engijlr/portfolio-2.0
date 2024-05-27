@@ -18,16 +18,16 @@ const About = () => {
           alt="person icon"
         />
         <p className="w-[450px] text-gray-30">
-          My name is Engiber Lozada, a front-end developer🖥️ based in{" "}
+          My name is Engiber Lozada, a front-end developer based in{" "}
           <span className="text-green-50">Copenhagen, Denmark</span>.
         </p>
         <p className="w-[450px] text-gray-30">
           Besides my passion for coding and continuous learning, I love taking
-          walks and soaking up the sun☀️.
+          walks and soaking up the sun.
         </p>
         <p className="w-[450px] text-gray-30">
           One of my latest hobbies is kitesurfing, so when I'm not diving into
-          new frameworks, you'll find me there 🏄🏻‍♀️.
+          new frameworks, you'll find me there.
         </p>
       </div>
 

@@ -36,6 +36,7 @@ const Projects = () => {
         {PROJECTS.map((project, i) => (
           <ProjectCard
             idx={i}
+            key={project.title}
             title={project.title}
             description={project.description}
             gifUrl={project.gif}

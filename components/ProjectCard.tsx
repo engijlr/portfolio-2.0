@@ -57,11 +57,13 @@ const ProjectCard = ({
         </div>
       </div>
       <div className="flexCenter max-container relative w-full border border-green-50 border-dotted p-2 2xl:rounded-lg">
-        <img
+        <Image
           src={gifUrl}
           width={1440}
           height={580}
+          alt="project video"
           className="w-full object-cover object-center 2xl:rounded-lg "
+          unoptimized
         />
       </div>
     </div>

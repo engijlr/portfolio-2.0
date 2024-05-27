@@ -31,7 +31,7 @@ const Stack = () => {
 
         <div className=" mt-10 grid gap-10 md:grid-cols-3 lg:mg-20 lg:gap-24">
           {STACK.map((item) => (
-            <div>
+            <div key={item.title}>
               <h4 className="hand-writting regular-24" key={item.title}>
                 {item.title}
               </h4>
