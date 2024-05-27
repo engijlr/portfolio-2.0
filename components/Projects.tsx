@@ -6,9 +6,9 @@ import Image from "next/image";
 const Projects = () => {
   return (
     <section className="flexCenter flex-col" id="projects">
-      <div className="bg-green-50 w-full mb-10 ">
+      <div className="bg-green-50 w-full mb-10">
         <Slider />
-        <div className="max-container text-white py-16">
+        <div className="max-container text-white py-16 padding-container">
           <h2 className="bold-40 lg:bold-52 flex gap-4 mb-5">
             <Image
               src="/brujula-icon.svg"
@@ -32,7 +32,7 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="flex-col max-container w-full items-start justify-start gap-8 mt-6">
+      <div className="flex-col max-container padding-container w-full items-start justify-start gap-8 mt-6">
         {PROJECTS.map((project, i) => (
           <ProjectCard
             idx={i}

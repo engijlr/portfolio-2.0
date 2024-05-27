@@ -5,10 +5,10 @@ import Link from "next/link";
 
 function Footer() {
   return (
-    <footer className="flexCenter py-24 bg-green-50" id="home">
+    <footer className="flexCenter py-16 md:py-24 bg-green-50" id="home">
       <div className="padding-container max-container flex w-full flex-col gap-14">
         <div className="flex-col items-start justify-center gap-[10%] md:flex-row">
-          <span className="mb-10 bold-64 text-white flex gap-4">
+          <span className="mb-10 bold-40 md:bold-64 text-white flex gap-4">
             <Image src="/lupa.svg" width={50} height={50} alt="lupa icon" />
             Find me on LinkedIn
           </span>

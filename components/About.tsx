@@ -3,7 +3,7 @@ import Image from "next/image";
 const About = () => {
   return (
     <section
-      className="flexCenter w-full py-[150px] max-container relative"
+      className="flexCenter flex-col lg:flex-row w-full lg:pb-[150px] pt-[150px] max-container padding-container relative"
       id="about"
     >
       <div className=" flex w-full flex-col items-start justify-center gap-6">
@@ -17,26 +17,27 @@ const About = () => {
           height={50}
           alt="person icon"
         />
-        <p className="w-[450px] text-gray-30">
+        <p className="lg:w-[450px] text-gray-30">
           My name is Engiber Lozada, a front-end developer🖥️ based in{" "}
           <span className="text-green-50">Copenhagen, Denmark</span>.
         </p>
-        <p className="w-[450px] text-gray-30">
+        <p className="lg:w-[450px] text-gray-30">
           Besides my passion for coding and continuous learning, I love taking
           walks and soaking up the sun☀️.
         </p>
-        <p className="w-[450px] text-gray-30">
+        <p className="lg:w-[450px] text-gray-30">
           One of my latest hobbies is kitesurfing, so when I&apos;m not diving
           into new frameworks, you&apos;ll find me there 🏄🏻‍♀️.
         </p>
       </div>
 
-      <div className="mt-10 absolute bottom-0 right-0">
+      <div className="mt-10 w-full">
         <Image
           src="/engi-2.png"
           width={400}
           height={400}
           alt="about me image"
+          className="lg:absolute lg:bottom-0 lg:right-0"
         />
       </div>
     </section>

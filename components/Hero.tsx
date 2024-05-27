@@ -6,12 +6,14 @@ function Hero() {
   return (
     <section className="max-container padding-container flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row">
       <div className="flex flex-col">
-        <h1 className="bold-52 lg:bold-106 whitespace-nowrap text-green-50">
-          HEY!👋🏻 I AM A
+        <h1 className="bold-52 lg:bold-106 md:whitespace-nowrap text-green-50">
+          HEY! I AM A
           <br />
-          <span className="hand-writting regular-106">FRONTENT DEVELOPER</span>
+          <span className="hand-writting regular-40 md:regular-64 lg:regular-106">
+            FRONTENT DEVELOPER
+          </span>
         </h1>
-        <p className="regular-20 mt-6 text-gray-30 xl:max-w-[520px]">
+        <p className="regular-16 mt-6 text-gray-30 xl:max-w-[520px]">
           Who loves creating beautiful and user-friendly apps using{" "}
           <span className="text-green-90">react.js</span> with{" "}
           <span className="text-green-90">redux</span> and{" "}
@@ -20,13 +22,14 @@ function Hero() {
           to speed the development process.
         </p>
 
-        <div className="flex flex-col w-full gap-3 sm:flex-row my-11">
-          <Link href="#projects">
+        <div className="flex w-full md:w-1/4 sm:flex-row my-11">
+          <Link href="#projects" className="w-full">
             <Button
               type="button"
               title="See my projects"
               variant="btn_green"
               icon="/heart-icon.svg"
+              full
             />
           </Link>
         </div>

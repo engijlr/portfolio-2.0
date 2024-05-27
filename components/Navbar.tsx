@@ -6,7 +6,7 @@ import Button from "./Button";
 function Navbar() {
   return (
     <nav className="flexBetween max-container padding-container relative z-30 py-5">
-      <Link href="/" className="bold-32 flex gap-3 text-gray-50">
+      <Link href="/" className=" bold-24 lg:bold-32 flex gap-3 text-gray-50">
         <Image src="/happy-face.svg" alt="logo" width={32} height={32} />
         ENGIBER LOZADA
       </Link>

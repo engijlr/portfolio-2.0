@@ -22,8 +22,8 @@ const ProjectCard = ({
   gitUrl,
 }: ProjectCardProps) => {
   return (
-    <div className="flex mb-20">
-      <div className="flex-col max-container relative w-full">
+    <div className="flex flex-col lg:flex-row mb-20 gap-8">
+      <div className="flex-col max-container w-full">
         <span className="hand-writting flex regular-32 gap-4 text-green-50">
           {idx + 1}.{" "}
           <Image
@@ -37,13 +37,14 @@ const ProjectCard = ({
         <p className="regular-16 mt-6 text-gray-30 xl:max-w-[520px]">
           {description}
         </p>
-        <div className="flex gap-4 mt-6">
+        <div className="flex w-full flex-col md:flex-row gap-4 mt-6">
           <Link href={siteUrl} target="_blank">
             <Button
               type="button"
               title="Go to live site"
               variant="btn_green"
               icon="/arrow.svg"
+              full
             />
           </Link>
           <Link href={gitUrl} target="_blank">
@@ -52,17 +53,18 @@ const ProjectCard = ({
               title="Go to GitHub repo"
               variant="btn_dark_green"
               icon="/github.svg"
+              full
             />
           </Link>
         </div>
       </div>
-      <div className="flexCenter max-container relative w-full border border-green-50 border-dotted p-2 2xl:rounded-lg">
+      <div className="flexCenter w-full max-container 2xl:rounded-lg">
         <Image
           src={gifUrl}
           width={1440}
           height={580}
           alt="project video"
-          className="w-full object-cover object-center 2xl:rounded-lg "
+          className=" object-cover w-full object-center 2xl:rounded-lg border border-green-50 border-dotted p-2"
           unoptimized
         />
       </div>
