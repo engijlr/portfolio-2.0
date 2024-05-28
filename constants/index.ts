@@ -18,13 +18,13 @@ export const PROJECTS = [
       "A fully responsive YouTube clone built with ReactJS and Material UI. Play and search for any video you want with a sleek and intuitive interface, optimized for both desktop and mobile.",
   },
   {
-    title: "Anime Vault",
-    gif: "/anime-vault.gif",
-    siteUrl: "https://clinquant-druid-e6334b.netlify.app",
-    ghUrl: "https://github.com/engijlr/anime-vault",
+    title: "Summify",
+    gif: "/summify.gif",
+    siteUrl: "https://monumental-boba-f531d4.netlify.app/",
+    ghUrl: "https://github.com/engijlr/summarizer-ai",
     stack: ["/next.svg", "/next.svg"],
     description:
-      "A dynamic anime site featuring infinite scroll and smooth animations using Framer Motion and Next.js server-side features. Enjoy an endless list of anime content with a seamless, responsive design.",
+      "An AI-powered tool that transforms lengthy articles into concise summaries. Built with Tailwind CSS, it offers a sleek, fully responsive design for optimal readability on any device.",
   },
 ];
 
@@ -36,6 +36,7 @@ export const specialWords = [
   "Material UI",
   "Framer Motion",
   "Next.js",
+  "AI-powered",
 ];
 
 export const STACK = [
