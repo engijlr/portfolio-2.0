@@ -28,6 +28,16 @@ export const PROJECTS = [
   },
 ];
 
+export const specialWords = [
+  "ReactJS",
+  "Redux Toolkit",
+  "Tailwind CSS",
+  "TypeScript",
+  "Material UI",
+  "Framer Motion",
+  "Next.js",
+];
+
 export const STACK = [
   {
     title: "Frontend",

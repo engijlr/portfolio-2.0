@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Button from "./Button";
 import Link from "next/link";
+import { specialWords } from "@/constants";
 
 interface ProjectCardProps {
   title: string;
@@ -11,6 +12,19 @@ interface ProjectCardProps {
   siteUrl: string;
   gitUrl: string;
 }
+
+const highlightSpecialWords = (text: string, specialWords: string[]) => {
+  const regex = new RegExp(`\\b(${specialWords.join("|")})\\b`, "gi");
+  return text.split(regex).map((part, index) =>
+    specialWords.includes(part) ? (
+      <span key={index} className="text-green-90">
+        {part}
+      </span>
+    ) : (
+      part
+    )
+  );
+};
 
 const ProjectCard = ({
   title,
@@ -35,7 +49,7 @@ const ProjectCard = ({
         </span>
         <h4 className="bold-52 lg:bold-32 text-green-50">{title}</h4>
         <p className="regular-16 mt-6 text-gray-30 xl:max-w-[520px]">
-          {description}
+          {highlightSpecialWords(description, specialWords)}
         </p>
         <div className="flex w-full flex-col md:flex-row gap-4 mt-6">
           <Link href={siteUrl} target="_blank">
@@ -59,14 +73,16 @@ const ProjectCard = ({
         </div>
       </div>
       <div className="flexCenter w-full max-container 2xl:rounded-lg">
-        <Image
-          src={gifUrl}
-          width={1440}
-          height={580}
-          alt="project video"
-          className=" object-cover w-full object-center 2xl:rounded-lg border border-green-50 border-dotted p-2"
-          unoptimized
-        />
+        <Link href={siteUrl} target="_blank">
+          <Image
+            src={gifUrl}
+            width={1440}
+            height={580}
+            alt="project video"
+            className=" object-cover w-full object-center 2xl:rounded-lg border border-green-50 border-dotted p-2"
+            unoptimized
+          />
+        </Link>
       </div>
     </div>
   );
