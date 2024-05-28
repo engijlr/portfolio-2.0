@@ -24,13 +24,13 @@ const Stack = () => {
             height={50}
             className="max-w-[500px] w-full"
           />
-          <p className="w-[450px]">
+          <p className="max-w-[450px]">
             I constantly like to learn new languages and frameworks, these are
             some of the languages and frameworks that I know:
           </p>
         </div>
 
-        <div className="w-full mt-10 grid grid-cols-3 md:grid-cols-2 lg:grid-cols-3 gap-10 lg:mg-20 lg:gap-24">
+        <div className="w-full mt-10 grid sm:grid-cols-3 md:grid-cols-2 lg:grid-cols-3 gap-10 lg:mg-20 lg:gap-24">
           {STACK.map((item) => (
             <div key={item.title}>
               <h4 className="hand-writting regular-24" key={item.title}>

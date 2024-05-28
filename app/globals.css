@@ -11,10 +11,6 @@
   box-sizing: border-box;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 body {
   font-family: "Outfit", sans-serif;
 }
@@ -93,7 +89,7 @@ body {
   }
 
   .regular-16 {
-    @apply text-[16px] font-[400];
+    @apply text-[16px] font-[300];
   }
 
   .regular-14 {
