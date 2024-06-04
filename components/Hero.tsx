@@ -7,10 +7,10 @@ function Hero() {
     <section className="max-container padding-container flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row">
       <div className="flex flex-col">
         <h1 className="bold-52 lg:bold-106 md:whitespace-nowrap text-green-50">
-          HEY! I AM A
+          HEJ! I AM A
           <br />
           <span className="hand-writting regular-40 md:regular-64 lg:regular-106">
-            FRONTENT DEVELOPER
+            FRONTEND DEVELOPER
           </span>
         </h1>
         <p className="regular-16 mt-6 text-gray-30 xl:max-w-[520px]">
