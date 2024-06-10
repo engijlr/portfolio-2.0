@@ -9,13 +9,13 @@ export const PROJECTS = [
       "A beautifully designed, fully mobile-responsive music player built with the latest tech stack: ReactJS, Redux Toolkit, Tailwind CSS, and TypeScript. Enjoy a seamless and stylish audio experience on any device.",
   },
   {
-    title: "SofaTV",
-    gif: "/youtubeclone.gif",
-    siteUrl: "https://sofatv.netlify.app",
-    ghUrl: "https://github.com/engijlr/youtube-clone-react",
+    title: "Ad Generator",
+    gif: "/ad-generator.gif",
+    siteUrl: "https://ad-generator-7yl2qqh0e-engijlrs-projects.vercel.app/",
+    ghUrl: "https://github.com/engijlr/ad-generator",
     stack: ["/next.svg", "/next.svg"],
     description:
-      "A fully responsive YouTube clone built with ReactJS and Material UI. Play and search for any video you want with a sleek and intuitive interface, optimized for both desktop and mobile.",
+      "An Angular-based application designed to streamline the creation of Instagram ads. This tool simplifies the process of crafting visually appealing ads, making it easy for users to enhance their social media presence.",
   },
   {
     title: "Summify",
@@ -37,6 +37,7 @@ export const specialWords = [
   "Framer Motion",
   "Next.js",
   "AI-powered",
+  "Angular-based",
 ];
 
 export const STACK = [
@@ -48,6 +49,7 @@ export const STACK = [
       "Redux",
       "Next",
       "RTKQ/TanStackQuery",
+      "Angular",
       "Jest",
       "Playwright",
       "Tailwind",

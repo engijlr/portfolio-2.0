@@ -5,6 +5,7 @@ import {
   FaGitAlt,
   FaGithub,
   FaFigma,
+  FaAngular,
 } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { SiTypescript, SiRedux, SiMui } from "react-icons/si";
@@ -53,6 +54,9 @@ flex items-center justify-around w-full mx-5"
         <span className="text-[30px] lg:text-4xl mx-4">
           <FaFigma width={50} />
         </span>
+        <span className="text-[30px] lg:text-4xl mx-4">
+          <FaAngular width={50} />
+        </span>
       </div>
 
       <div
@@ -94,6 +98,9 @@ flex items-center justify-around w-full"
         </span>
         <span className="text-[30px] lg:text-4xl mx-4">
           <FaFigma width={50} />
+        </span>
+        <span className="text-[30px] lg:text-4xl mx-4">
+          <FaAngular width={50} />
         </span>
       </div>
     </div>
